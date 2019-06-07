@@ -406,3 +406,45 @@ a.btn_fab:hover:before {
 		left: auto;
 	}
 }
+
+/* Readjustment of Twitch Chat and Video */ 
+
+.twitch_chat {
+	width: 350px;
+	height: 500px;
+}
+.twitch_video {
+	height: 500px;
+	width: 820.20582px;
+}
+@media only screen and (max-width: 1204px) { /* Smaller Screens */ 
+	.twitch_chat {
+	   width: 175px;
+	   height: 250px;
+	}
+	.twitch_video {
+	   height: 250px;
+	   width: 410.10291px;
+	   float: right;
+	}
+	.splitscreen {
+	   margin-left: calc(50% - 292.551455px)
+	}
+}
+@media only screen and (max-width: 611px) { /* Mobile Phones */ 
+	.twitch_chat {
+	   width: 87.5px;
+	   height: 125px;
+	}
+	.twitch_video {
+	   height: 125px;
+	   width: 205.051455px;
+	   float: right;
+	}
+	.splitscreen {
+	   margin-left: calc(50% - 292.551455px)
+	}
+	header img {
+	   margin-top: 300px;
+	}
+}
